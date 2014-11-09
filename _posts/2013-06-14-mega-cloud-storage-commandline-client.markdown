@@ -38,7 +38,7 @@ comments:
   author_url: ''
   date: '2013-07-08 22:47:32 +0530'
   date_gmt: '2013-07-08 22:47:32 +0530'
-  content: Thanks. That worked like a charm. I had tried mega:&#47;"path with spaces"
+  content: Thanks. That worked like a charm. I had tried mega:/"path with spaces"
     (and with single quotes) but that gave weird results. Maybe something to put in
     the Readme.md
 - id: 17323
@@ -47,8 +47,8 @@ comments:
   author_url: ''
   date: '2013-07-14 20:22:14 +0530'
   date_gmt: '2013-07-14 20:22:14 +0530'
-  content: "I cannot compile this tool. I am getting an error:\r\nmake\r\ngo get github.com&#47;t3rm1n4l&#47;go-mega\r\npackage
-    github.com&#47;t3rm1n4l&#47;go-mega: mkdir &#47;usr&#47;lib&#47;go&#47;src&#47;pkg&#47;github.com:
+  content: "I cannot compile this tool. I am getting an error:\r\nmake\r\ngo get github.com/t3rm1n4l/go-mega\r\npackage
+    github.com/t3rm1n4l/go-mega: mkdir /usr/lib/go/src/pkg/github.com:
     permission denied\r\nmake: *** [build] Error 1\r\n:("
 - id: 17324
   author: sciss
@@ -138,7 +138,7 @@ comments:
   author_url: ''
   date: '2013-10-07 12:57:03 +0530'
   date_gmt: '2013-10-07 12:57:03 +0530'
-  content: How to get&#47;put folder?
+  content: How to get/put folder?
 - id: 17766
   author: Sarath
   author_email: sarathlakshman@slynux.com
@@ -179,7 +179,7 @@ comments:
     the remote account is mounted as a fuse filesystem.\r\nAll base methods have been
     implemented, moreover random read access is available, in other words you can
     read a remote video file and jump in the middle of the video without waiting.\r\nthe
-    sources are available at:\r\nhttps:&#47;&#47;github.com&#47;matteoserva&#47;megafuse"
+    sources are available at:\r\nhttps://github.com/matteoserva/megafuse"
 - id: 17950
   author: el duderino
   author_email: el@dud.es
@@ -205,7 +205,7 @@ comments:
   content: "Hi, thanks for the tool, slight issue with larger files though, trying
     to upload a 4gb ISO but it seems to hit 8.25% and then hang for a while, ventually
     comes out with the error 'failed (unexpected EOF)'.\r\n\r\nAny ideas? Uploading
-    to main MEGA dir, not any folders etc, seems to work fine with files up to 2.5&#47;6
+    to main MEGA dir, not any folders etc, seems to work fine with files up to 2.5/6
     gb..(MKV)."
 - id: 18005
   author: Elliot
@@ -216,7 +216,7 @@ comments:
   content: When I tried using this, the files were uploaded but their names all show
     as 'MALFORMED_ATTRIBUTES'. Any ideas what's causing this?
 - id: 18056
-  author: http:&#47;&#47;crimepatrol.co.uk&#47;blog&#47;view&#47;14480&#47;picking-out-realistic-programs-for-family
+  author: http://crimepatrol.co.uk/blog/view/14480/picking-out-realistic-programs-for-family
   author_email: youngstclair@zoho.com
   author_url: http://crimepatrol.co.uk/blog/view/14480/picking-out-realistic-programs-for-family
   date: '2014-01-01 09:49:50 +0530'
@@ -255,7 +255,7 @@ Mega stores files in node hierarchical parent-child model like standard filesyst
 
 Once you get a session ID, we can use file list APi to download meta data about all the nodes in the filesystem tree. The response contain, one metadata entry per node.
 
-To download a file, we should send a request with node Hash. The response will contain a url at which we can download the file. The file should be downloaded in chunks of size, 128K &#47; 384K &#47; 768K &#47; 1280K &#47; 1920K &#47; 2688K &#47; 3584K &#47; 4608K &#47; ... (every 1024 KB). This is to allow integrity checks per chunk. While downloading each chunk, it should be decrypted using AES-Counter mode using the file key.
+To download a file, we should send a request with node Hash. The response will contain a url at which we can download the file. The file should be downloaded in chunks of size, 128K / 384K / 768K / 1280K / 1920K / 2688K / 3584K / 4608K / ... (every 1024 KB). This is to allow integrity checks per chunk. While downloading each chunk, it should be decrypted using AES-Counter mode using the file key.
 
 To upload a file, we should generate a random key to be used as file key and initialization vector. An upload request with file size is issued and it returns a response with a url at which we can do uploads. Uploads are done in chunks as download by posting encrypted data at http://uploadurl/chunkstart-chunkend. Once all the uploads are complete, we receive a completion handle. We should post a file upload completion request with completion handle, meta-MAC, attributes, parent hash, etc to finalize the upload.
 

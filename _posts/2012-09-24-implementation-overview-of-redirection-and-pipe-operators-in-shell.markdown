@@ -27,7 +27,7 @@ comments:
   content: "Hey,\r\n\r\nGreat info. Thank you for writing it up. I am a linux newbie
     and this explains a lot of things that are done on the command line. Can you shed
     some light on where the main function is executed? Is it in the child or the parent
-    process? From the code, it looks like they both use&#47;share&#47;execute the
+    process? From the code, it looks like they both use/share/execute the
     same main function. I am going by the use of \"if(fork() ==0\". Is that the case?
     So, in that case the if block will be executed in the child process and the else
     block in the parent process?\r\n\r\nAgain, I appreciate the post very much.\r\n\r\nThank

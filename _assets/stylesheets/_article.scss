@@ -1,10 +1,11 @@
 article {
     background:#fff;
     padding:60px 0;
-    font-size:18px;
+    font-size:20px;
+    line-height:1.5;
 
     .container > header, .container > section, .container > footer {
-        margin:0 8em;
+        margin:1px;
     }
 
     .social {
@@ -182,7 +183,6 @@ article {
     pre {
         border: 0;
         padding: 1.5em 3em;
-        margin:0 -3em 1.5em;
         background: whitesmoke;
         border: 0;
         border-radius: 2px;
@@ -245,4 +245,8 @@ article {
         }
     }
 
+}
+
+.left-image {
+    float:left;
 }

@@ -1,5 +1,6 @@
 .site-nav {
-    background:#fff;
+    background:#000;
+    border-bottom: 1px solid grey;
     height:80px;
     position:absolute;
     left:0;
@@ -41,12 +42,12 @@
             display:inline-block;
             
             &:hover {
-                color:$accent;
+                color:grey;
             }
         }
         
         > a, .dropdown-toggle  {
-            color:#444;
+            color:#fff;
             border:0;
             font-weight:600;
             font-size:15px;
@@ -70,6 +71,7 @@
         font-weight:600;
         
         span {
+            color: grey;
             line-height:0;
             padding-right:20px;
         }

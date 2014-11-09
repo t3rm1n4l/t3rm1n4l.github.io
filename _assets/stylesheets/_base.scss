@@ -43,7 +43,7 @@ a {
 }
 
 .container {
-    max-width:820px;
+    max-width:700px;
     margin:0 auto;
 }
 
@@ -51,12 +51,12 @@ a {
     max-width: 100%;
     margin-top: 0;
     position: relative;
-    max-height:460px;
+    max-height:700px;
     overflow:hidden;
     background:#eee;
     
     > div {
-        max-height: 480px;
+        max-height: 700px;
         line-height: 0;
     }
     
@@ -68,7 +68,7 @@ a {
 }
 
 .index {
-    margin:0 5em;
+    margin: 1px;
     
     > div{
         display:table-cell;
@@ -86,6 +86,25 @@ a {
         margin-top:0;
         margin-right:30px;
     }
+}
+
+.index div span {
+    float: right;
+    font-family:Droid Sans;
+    color:#88aaaa;
+    font-size:20px;
+    padding-right: 10px;
+}
+.index div a {
+    font-size:22px;
+}
+.index div {
+    width:700px;
+}
+
+.index div hr {
+    margin-top:15px;
+    margin-bottom:15px;
 }
 
 .blog-cover {
@@ -254,7 +273,6 @@ a {
     text-rendering: optimizeLegibility;
     border-radius: 2px;
     vertical-align:middle;
-    font-family:"proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-radius:2px;
     background:#4dab7d;
     border:2px solid #4dab7d;

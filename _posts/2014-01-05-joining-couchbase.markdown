@@ -13,7 +13,7 @@ It was one of wish to have a job of writing opensource code and getting paid for
 
 Thinking a glance about 2013, I have been significantly contributing to ZBase open source project during the whole year. It was interesting to see one of my golang project, megacmd attracted some users. My github graph for the last one year looks as follows. I am looking forward to diversify my projects to more lower level stuff this year.
 
-![](http://www.sarathlakshman.com/wp-content/uploads/github-contri-2013.png)
+![](/images/github-contri-2013.png)
 
 Wishing you all happy new year 2014!
 
