@@ -59,7 +59,7 @@ permalink:     /:year/:month/:day/:title.html
 paginate_path: 'page:num'
 paginate: 5
 
-markdown:      redcarpet
+markdown:      kramdown
 markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
 
