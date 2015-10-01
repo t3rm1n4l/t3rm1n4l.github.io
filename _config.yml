@@ -55,7 +55,7 @@ pygments:    true
 
 relative_permalinks: true
 
-permalink:     pretty
+permalink:     /:year/:month/:day/:title.html
 paginate_path: 'page:num'
 paginate: 5
 
