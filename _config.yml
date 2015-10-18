@@ -5,6 +5,7 @@ inc:
   #logo:         logo.png
   
   # Company information
+  cover_image:  home-cover.jpg
   company:      Sarath Lakshman
   url:          http://www.sarathlakshman.com/
   facebook:     sarathlakshman

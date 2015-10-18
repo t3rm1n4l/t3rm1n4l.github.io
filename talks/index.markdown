@@ -20,6 +20,7 @@ data-id="07a808a48c4d484f9b61bbe753c92e37" data-ratio="1.33333333333333"
 src="//speakerdeck.com/assets/embed.js"></script>
 
 &nbsp;   
+
 ## FOSS.IN 2005 International conference, Bangalore
 
 My first talk as a kid during my school
