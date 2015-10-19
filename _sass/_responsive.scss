@@ -124,3 +124,8 @@
         }
     }
 }
+
+/* To fill the container and nothing else */
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    vertical-align: baseline !important;
+}
