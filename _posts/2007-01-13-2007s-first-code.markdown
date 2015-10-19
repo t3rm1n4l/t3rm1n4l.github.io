@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: 2007's First code !
+author: Sarath
+author_login: admin
+author_email: sarathlakshman@slynux.com
+wordpress_id: 77
+wordpress_url: http://sarathlakshman.com/?p=77
+date: 2007-01-13 13:06:07.000000000 +05:30
+categories:
+- General
+tags: []
+comments:
+- id: 2830
+  author: The Innovation Lover &raquo; Python -> The Rocking programming language
+  author_email: ''
+  author_url: http://sarathlakshman.com/?p=89
+  date: '2007-05-06 02:03:19 +0530'
+  date_gmt: '2007-05-06 08:03:19 +0530'
+  content: '[...] Look at my old post: Splitter CPP [...]'
+---
+In connection with my Computer Science Project work, I wrote a file splitter program. A simple C++ program. This is tuned to compile with my favourite g++ compiler. It may need some modifications to compile on some platforms.
+
+You can download it here: <a href="code/filesplitter.cpp.zip">filesplitter.cpp.zip</a>
+
+compile it as:
+
+$ g++ -o splitter filesplitter.cpp
+
+Run
+
+$ ./splitter
+
+It is nice and handy tool to split files. Even it can work as a VCD cutter. It can split dat files :)
+
+Just Enjoy.

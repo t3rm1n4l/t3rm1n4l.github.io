@@ -1,0 +1,87 @@
+---
+layout: post
+status: publish
+published: true
+title: Where am I ?
+author: Sarath
+author_login: admin
+author_email: sarathlakshman@slynux.com
+wordpress_id: 110
+wordpress_url: http://sarathlakshman.com/?p=110
+date: 2007-10-20 00:03:46.000000000 +05:30
+categories:
+- General
+- Life
+tags: []
+comments:
+- id: 5666
+  author: Anand Lukose
+  author_email: andecrooze@yahoo.co.in
+  author_url: ''
+  date: '2007-11-01 05:32:46 +0530'
+  date_gmt: '2007-11-01 11:32:46 +0530'
+  content: I am stunned by your work man.. You rock !! whats the next best thing out
+    from ur stable ???
+- id: 5780
+  author: kamal
+  author_email: kmorjal@gmail.com
+  author_url: ''
+  date: '2007-12-01 04:03:10 +0530'
+  date_gmt: '2007-12-01 10:03:10 +0530'
+  content: "May God bless you with a nice laptop and internet connection soon :)\r\nKeep
+    up the passion..."
+- id: 5853
+  author: Lijo
+  author_email: lijotantony@gmail.com
+  author_url: ''
+  date: '2007-12-13 10:13:44 +0530'
+  date_gmt: '2007-12-13 16:13:44 +0530'
+  content: I can understand yor feelings.Becuase I was  also in S1S2 few years back.Think
+    differently.Since this year's course is 'bull shit' you will get enough time for
+    your passion.You can make best use of that.Best wishes!
+- id: 6624
+  author: vamsi
+  author_email: vegesnavamsi@indiatimes.com
+  author_url: ''
+  date: '2008-02-20 05:27:38 +0530'
+  date_gmt: '2008-02-20 11:27:38 +0530'
+  content: hai,, i dont know what to talk up after using ur worm remover fo r orkut,,
+    hoe r u doing this all ,just amazed by ur work,,   i am a 1 b-tech student from
+    andhra pradesh, mail me some time, ,, like u ,,i am also a freek abt technology
+    coming up..
+- id: 6885
+  author: NITHINBAZIL
+  author_email: nithinbazil@slynux.org
+  author_url: ''
+  date: '2008-03-15 07:42:57 +0530'
+  date_gmt: '2008-03-15 13:42:57 +0530'
+  content: Iam your old friend now studying for A.M.I.E(Associate membership of institution
+    of engineers india) now ihave got 2subjects209&amp;206@winter 2007 @CUSAT(exam
+    center) my new friends are very interested to know about u. now iam studying @
+    V.I.E.T kottayam my email address u have created is exhausted irequest u 2 regenerate
+    it.if oppurtunities come we can meet again
+- id: 6934
+  author: masutha
+  author_email: massasmas@yahoo.com
+  author_url: ''
+  date: '2008-03-20 18:36:50 +0530'
+  date_gmt: '2008-03-21 00:36:50 +0530'
+  content: hey u r really an amazing kid.....gud luck to u.its so happy to see u r
+    from mahe tooooo....proud of u..
+- id: 9282
+  author: lok satta india
+  author_email: rajivgandhi896s@gmail.com
+  author_url: http://www.loksatta.org/cms/
+  date: '2009-05-29 03:11:51 +0530'
+  date_gmt: '2009-05-29 03:11:51 +0530'
+  content: Hi, good post. I have been wondering about this issue, so thanks for posting.
+---
+I'm living without connectivity and computers during these days. 
+Yeah. I'm now a first year Computer Science and Engineering student at <a href="http://www.mec.ac.in">Model Engg College, Thrikkakara</a>.
+
+I live at Men's Hostel(MH) of the college, Room No. 124 in a small box room. Life is truly horrible these days..No computer access, Internet.. Little bit of Seniority - juniority issues and more.
+
+First year syllabus is truly bull shit. I have to learn a lot of non-techie subjects like Basic Civil Engg, Environmental science etc. They are all just like crap windows viruses. Irritating me under an infinite loop.
+
+These environment is making me leak my passions of FOSS. 
+God.. Could you please bring me a laptop with connectivity at hostel :D

@@ -1,0 +1,63 @@
+---
+layout: post
+status: publish
+published: true
+title: FOSSMeet NITC 2008
+author: Sarath
+author_login: admin
+author_email: sarathlakshman@slynux.com
+wordpress_id: 123
+wordpress_url: http://sarathlakshman.com/?p=123
+date: 2008-04-06 19:54:23.000000000 +05:30
+categories:
+- General
+- Open Source
+tags: []
+comments:
+- id: 7070
+  author: What I felt about FOSS meet &laquo; Tvm&#8217;s personal blog
+  author_email: ''
+  author_url: http://tvmanukrishnan.wordpress.com/2008/04/06/what-i-felt-about-foss-meet/
+  date: '2008-04-08 06:09:10 +0530'
+  date_gmt: '2008-04-08 12:09:10 +0530'
+  content: '[...] Sarath Lakshman [...]'
+- id: 10215
+  author: Venadan
+  author_email: tonyjose@gmail.com
+  author_url: ''
+  date: '2010-08-30 17:18:06 +0530'
+  date_gmt: '2010-08-30 17:18:06 +0530'
+  content: "Good to see you online\r\n\r\nDocumentation for Live CD remastering is
+    not working , can you send me a link or the document ?\r\n\r\n-venadan"
+---
+<a href="http://fossmeet.in"><img src="http://bp1.blogger.com/_D-EiCDQqqac/R5bksSTQFwI/AAAAAAAAANM/vLzh_NbV1Fk/s320/fossmeet2.jpg" alt="logo" /></a>
+I was in a hurry with second series exams at college was really in a frustration. It was during the exam days the event co-ordinator Harivishnu confirmed about my talk at 4th edition of FOSSMeet @ NIT, Calicut. Since due to lack of time and preparation, I again spoke about Exploring GNU/Linux live CDs. If I had enough time I would have done a talk "Love your terminal".
+
+The <a href="http://fossmeet.in">FOSSMee</a>t was started off on friday, 4th april itself. But, I reached NITC on Saturday morning due to exams. The first talk I attended was Niyam Bhushan's 'What Every Software Dev/Professional Must Know About Interface Design'. It was superb. He illustrated the importance of interface design for software developers. Good interface design is the best way to success of a software. I attended some of other talks too.
+
+Today, the event started with the screening of 'An Elephant's dream', which is a movie completely developed by using Blender - A free software. It was rocking. After that session, Santhosh Thottingal took a session 'Introduction to 3D modelling using Blender'. It was also awesome. Next arrived Sujith's talk 'Make - a cake of developers'. It was about Makefile in compiling.  Afternoon my turn arrived, I spoke on 'Exploring GNU/Linux Live CDs', about little knoppix hacks.
+
+Finally there was Niyam Bhushan's 'How to Design Sound, Compose Music, And Master Your '. There are no words to appreciate such a creative speaker. It was really inspiring. He illustrated various tools avaliable in GNU/Linux platform for various aspects related to music. Also he told that it would cost 1000s  of $s buying equivalent softwares under proprietory software. In muft and mukt software (Free software), its all free. Told that to leave about piracy, patent, copyrights. Think about music. He was really rocking.
+
+<a href="http://www.flickr.com/photos/sarath_slynux/2393858651/"><img src="http://farm3.static.flickr.com/2186/2393858651_740fdf9d9f_m.jpg" alt="" /></a> 
+
+<a href="http://www.flickr.com/photos/sarath_slynux/2394691828/"><img src="http://farm3.static.flickr.com/2300/2394691828_0578e4242c_m.jpg" alt="" /></a>
+Anjhan on FOSS 'o' tronics
+
+<a href="http://www.flickr.com/photos/sarath_slynux/2394694716/"><img src="http://farm3.static.flickr.com/2333/2394694716_78eb796877_m.jpg" alt="" /></a>
+Sujith H on Makefiles
+<a href="http://www.flickr.com/photos/sarath_slynux/2393863411/"><img src="http://farm4.static.flickr.com/3247/2393863411_291445c01d_m.jpg" alt="" /></a>
+Santhosh on Blender Modelling
+<a href="http://www.flickr.com/photos/sarath_slynux/2393867193/"><img src="http://farm3.static.flickr.com/2022/2393867193_46d85aea1c_m.jpg" alt="" /></a>
+Me, Myself on Linux Live CDs
+<img src="http://farm3.static.flickr.com/2316/2394758394_d1a71acede_m.jpg" alt="" />
+
+<a href="http://www.flickr.com/photos/sarath_slynux/2393869123/"><img src="http://farm3.static.flickr.com/2361/2393869123_0e5cc1731b_m.jpg" alt="" /></a>
+Niyam on Music hacks
+
+
+<a href="http://fossmeet.in">FOSSMeet</a> @ NITC is the India's 4th largest Free and Open Source Conference. For FOSSMeet NITC, there were around 20 speakers and more than 20 talks. But, this year delegates were slightly less in number. I guess due to exam time.
+
+Altogether <a href="http://fossmeet.in">FOSSMeet</a> rocks. Have fun with FOSS.
+
+Here is the Documentation for <a href="http://sarathlakshman.com/?page_id=18">Live CD remastering.</a>

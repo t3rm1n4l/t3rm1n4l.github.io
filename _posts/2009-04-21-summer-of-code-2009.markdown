@@ -1,0 +1,34 @@
+---
+layout: post
+status: publish
+published: true
+title: Summer of Code 2009
+author: Sarath
+author_login: admin
+author_email: sarathlakshman@slynux.com
+wordpress_id: 309
+wordpress_url: http://www.sarathlakshman.com/?p=309
+date: 2009-04-21 01:00:29.000000000 +05:30
+categories:
+- General
+- GSOC
+tags:
+- linux
+- google
+- summer of code
+comments:
+- id: 9233
+  author: hiran
+  author_email: hiran.v@gmail.com
+  author_url: http://hiran.in
+  date: '2009-04-21 05:41:47 +0530'
+  date_gmt: '2009-04-21 05:41:47 +0530'
+  content: congrats!!!
+---
+<img class="alignnone" title="soc 2009" src="http://code.google.com/images/2009socwithlogo.gif" alt="" width="163" height="108" /> <img class="alignnone" title="Pardus" src="http://en.pardus-wiki.org/images/f/f6/Pardus_64x77.png" alt="" width="64" height="77" />
+
+Voila. For the second time, I got selected for <a href="http://socghop.appspot.com">Google Summer of Code (2009)</a>. This time I am going to work with the mentoring organisation <a href="http://www.pardus.org.tr">Pardus</a>.
+
+I will be working to develop a Web based Custom distro creater tool for Pardus Project.
+
+Project url : <a href="http://socghop.appspot.com/org/home/google/gsoc2009/pardus">http://socghop.appspot.com/org/home/google/gsoc2009/pardus</a>

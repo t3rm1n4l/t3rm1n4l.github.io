@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: PiTiVi
+author: Sarath
+author_login: admin
+author_email: sarathlakshman@slynux.com
+wordpress_id: 141
+wordpress_url: http://sarathlakshman.com/?p=141
+date: 2008-07-05 00:39:35.000000000 +05:30
+categories:
+- General
+tags:
+- pitivi
+- gnome
+comments:
+- id: 7632
+  author: nonen
+  author_email: capeloyo@yahoo.com
+  author_url: ''
+  date: '2008-07-15 12:30:57 +0530'
+  date_gmt: '2008-07-15 18:30:57 +0530'
+  content: "helo bro... \r\ni need your help to solve my probs...\r\n1stly sorry cz
+    out of topic...\r\nbut i,m out of my mind...\r\nthiz about hea41a...\r\nte folder
+    has been removed, but aoutorun.inf &amp; RECYCLE still keep on going in my thum
+    drive...\r\nhow to solve it... e-mail me plz.. tq bro..\r\ni'm waiting yr solution
+    email..\r\ni appreciate if u willing to help.. tq"
+---
+Pitivi is a very promising Open Source video editor software. It is based on Gstreamer, Gnonlin development libs.
+
+Please have a look at <a href="http://pitivi.org">PiTiVi.org</a> 
+
+<a href="http://picasaweb.google.com/sarathlakshman/Gsoc/photo#5219388739850748146"><img src="http://lh4.ggpht.com/sarathlakshman/SG7-Z8d6QPI/AAAAAAAAANE/bsVHp5doOKk/s400/pitivi.png" /></a>
+
+It is still under initial stages of development. Hence it still requires lots of features to be added to be used a professional video editing software. As the part of Google Summer of Code 2008, I am working with PiTiVi to add certain features like record from webcam, capturing network stream etc. 
+
+Please checkout from svn to get the latest version.

@@ -1,0 +1,41 @@
+---
+layout: post
+status: publish
+published: true
+title: mp3 -> ogg
+author: Sarath
+author_login: admin
+author_email: sarathlakshman@slynux.com
+excerpt: 'ogg mp3 to ogg converter linux command '
+wordpress_id: 133
+wordpress_url: http://sarathlakshman.com/?p=133
+date: 2008-05-06 07:57:06.000000000 +05:30
+categories:
+- General
+tags: []
+comments:
+- id: 7762
+  author: Sreenadh
+  author_email: sreenadh1987@gmail.com
+  author_url: ''
+  date: '2008-08-01 12:33:42 +0530'
+  date_gmt: '2008-08-01 18:33:42 +0530'
+  content: "Hello Sarath,\r\nAre all your mp3 audio files copyrighted? If yes then
+    how do say that you are free? Converting audio files from mp3 to ogg will not
+    let you free as in Freedom. If you have converted audio files which does not have
+    any copyright then you are right. \r\n\r\nMay be I am wrong. Pardon me.\r\n\r\nHoping
+    your reply to the above email id."
+---
+Being a free software enthusiast, it was shame for myself keeping music files in a proprietary format like mp3. During some chat conversation with <a href="http://aeshyamae.blogspot.com">Shyam</a> I recalled the thought. I never went for a second thought.  Wrote a bash script and converted all my music files to<a href="http://en.wikipedia.org/wiki/Vorbis"> ogg vorbis</a> format :). Now I'm free. 
+
+<blockquote>Free as in Freedom</blockquote>
+
+Ogg Vorbis is a free and open source replacement for mp3 music format. More than the freedom thought, I have found some more benefit. After conversion from mp3 to ogg, I freed some more disk space.  ( 1.5 Gigs to 1.2 Gigs ) :)
+
+{% highlight bash %}
+find base_dir_path -type f -name "*.mp3" > list ;
+while read each_file;
+     dir2ogg "$each_file";
+     rm "$each_file" ;
+ done < list ;
+ {% endhighlight %}

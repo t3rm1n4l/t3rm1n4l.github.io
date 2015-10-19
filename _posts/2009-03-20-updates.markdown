@@ -1,0 +1,123 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Updates '
+author: Sarath
+author_login: admin
+author_email: sarathlakshman@slynux.com
+wordpress_id: 299
+wordpress_url: http://www.sarathlakshman.com/?p=299
+date: 2009-03-20 02:38:39.000000000 +05:30
+categories:
+- General
+- Life
+tags:
+- Life
+- progress
+- updates
+comments:
+- id: 9246
+  author: Zubin Mithra
+  author_email: zubin.mithra@gmail.com
+  author_url: http://www.zubin71.wordpress.com
+  date: '2009-05-10 02:07:44 +0530'
+  date_gmt: '2009-05-10 02:07:44 +0530'
+  content: "i`ve read the last two articles you have published on the magazine and
+    found it the article on dbus informative. gr8 job! :-)\r\ngood of you to publish
+    your articles on the internet, those who have missed out on your earlier articles
+    could have a look at it."
+- id: 9247
+  author: Zubin Mithra
+  author_email: zubin.mithra@gmail.com
+  author_url: http://www.zubin71.wordpress.com
+  date: '2009-05-10 02:08:48 +0530'
+  date_gmt: '2009-05-10 02:08:48 +0530'
+  content: "also, how do you go through with posting an article in a magazine? do
+    you just prepare it and send it to the editors email id along with your credentials?
+    \r\nif so, which email id?\r\nthankx in advance"
+- id: 9250
+  author: Zubin Mithra
+  author_email: zubin.mithra@gmail.com
+  author_url: http://www.zubin71.wordpress.com
+  date: '2009-05-10 08:20:12 +0530'
+  date_gmt: '2009-05-10 08:20:12 +0530'
+  content: "also, there seems to be a problem in the \"dbud programming\" file u have
+    uploaded. \r\nkindly tend to it."
+- id: 9252
+  author: Sarath
+  author_email: sarathlakshman@slynux.org
+  author_url: http://
+  date: '2009-05-12 01:22:26 +0530'
+  date_gmt: '2009-05-12 01:22:26 +0530'
+  content: "Thanks :)\r\n\r\nYeah. Initially you should contact Editor for deciding
+    the Article Title.\r\n\r\nWhat problem did you find with the Dbus-pdf file ?"
+- id: 9255
+  author: Siddharth K
+  author_email: thulir@gmail.com
+  author_url: ''
+  date: '2009-05-12 05:03:06 +0530'
+  date_gmt: '2009-05-12 05:03:06 +0530'
+  content: "Hey,\r\nI really liked your article about UDev in LFY Dec '08 , and decided
+    to try out the automatic connect to internet using our usb modem. I had to already
+    add a rules file in udev in order to get the modem working and so i thought i
+    would just have to add a few lines to this existing file to get this working.
+    However, although it does connect to the internet when plugged in , it does not
+    display the notification. Also, the script runs infinitely , displaying an error
+    message:\r\n/usr/bin/msg_connection: line 11: [[-n: command not found\r\n\r\nhere
+    is my rules file:\r\n~$ cat /etc/udev/rules.d/026_ti_usb_3410.rules\r\n#TI
+    USB 3410\r\nSYSFS{idVendor}==\"0451\",SYSFS{idProduct}==\"3410\", SYSFS{bNumConfigurations}==\"2\",
+    SYSFS{bConfigurationValue}==\"1\", RUN+=\"/bin/sh -c 'echo 2 > /sys%p/device/bConfigurationValue'\"\r\n\r\nACTION==\"add\",
+    SYSFS{idVendor}==\"0451\",SYSFS{idProduct}==\"3410\", SYSFS{bNumConfigurations}==\"2\",
+    SYSFS{bConfigurationValue}==\"1\", RUN+=\"/usr/bin/wll_connect\"\r\n\r\nACTION==\"remove\",
+    SYSFS{idVendor}==\"0451\",SYSFS{idProduct}==\"3410\", SYSFS{bNumConfigurations}==\"2\",
+    SYSFS{bConfigurationValue}==\"1\", RUN+=\"/usr/bin/msg_connection\"\r\n\r\n--------------------eof-------------------\r\n\r\nhere
+    is wll_connect :\r\n~$ cat /usr/bin/wll_connect \r\n#!/bin/bash\r\n/usr/bin/wvdial
+    &amp;\r\n/usr/bin/msg_connection con &amp;  \r\n\r\n--------------------eof-------------------\r\n\r\nand
+    here is the msg_connection file:\r\n:~$ cat /usr/bin/msg_connection\r\n#!/bin/bash\r\nuser=thulir;\r\n\r\nif
+    [$# -eq 0];\r\nthen\r\n        DISPLAY=:0.0 su $user -c 'notify-send -u critical
+    \"Internet Disconnected !\"';\r\nelse\r\n\r\nwhile true;\r\ndo\r\nif [[-n $(/sbin/ifconfig
+    ppp0 2>&amp;1 | grep \"inet addr\")]];\r\n        then \r\n                DISPLAY=:0.0
+    su $user -c 'notify-send \"Connected to Internet :)\"';\r\n        exit 0;\r\nfi\r\n
+    \       sleep 1;\r\ndone\r\nfi\r\nexit 0;\r\n\r\n--------------------eof-------------------\r\n\r\nI
+    think it may probably be just a typo in my scripts - if so , really sorry to make
+    you go through them - but unfortunately i dont know enough shell script to debug
+    it myself.\r\n\r\nThanks a lot."
+- id: 9259
+  author: Sarath
+  author_email: sarathlakshman@slynux.org
+  author_url: http://
+  date: '2009-05-15 08:21:09 +0530'
+  date_gmt: '2009-05-15 08:21:09 +0530'
+  content: "The prob is with spacing in the script.\r\nSee if [$# -eq 0]; \r\nit should
+    be given proper spacing.\r\n\r\n[$# -eq 0]; - > [ $# -eq 0 ];\r\n\r\nadd corresponding
+    spaces in the script. It will work.\r\n\r\nHappy Hacking !"
+- id: 9267
+  author: Zubin Mithra
+  author_email: zubin.mithra@gmail.com
+  author_url: http://www.zubin71.wordpress.com
+  date: '2009-05-21 06:00:17 +0530'
+  date_gmt: '2009-05-21 06:00:17 +0530'
+  content: "\"failed to read the document catalog\"\r\n\r\n\r\nis the error i get
+    when i try to open the pdf."
+- id: 9271
+  author: Bibin
+  author_email: bibin_abraham2005@yahoo.co.in
+  author_url: ''
+  date: '2009-05-22 13:30:42 +0530'
+  date_gmt: '2009-05-22 13:30:42 +0530'
+  content: I am unable to open "D-Bus - Smart, Simple, Powerful IPC " article...
+---
+It has been a long time since I blogged, I am back again.
+
+Life at college has been becoming so hectic with pathetic Assignments, Class tests routine. Moreover we are running out of time since this is a short semester. Waiting for the vacation to come sooner so that I can resume my contribution to some of the Open Source Projects I love.
+
+Since last Novemeber 2008 I have been contributing Articles on <a href="http://www.lfymag.com">Linux For You</a> Magazine. You can download the articles that I have published over the recent months here.
+<ul>
+	<li><a href="http://web.sarathlakshman.com/Articles/Cron.pdf">Schedule Your tasks</a></li>
+	<li><a href="http://web.sarathlakshman.com/Articles/Grub.pdf">Grand Unified Boot Loader Explained !</a></li>
+	<li><a href="http://web.sarathlakshman.com/Articles/Udev_unplugged.pdf">Udev unplugged</a></li>
+	<li><a href="http://web.sarathlakshman.com/Articles/Networking.pdf">Recipes for Networking</a></li>
+	<li><a href="http://web.sarathlakshman.com/Articles/Dbus.pdf">D-Bus - Smart, Simple, Powerful IPC </a></li>
+</ul>
+Your comments and suggestions are expected :)

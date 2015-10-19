@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: FOSS NITC 2006
+author: Sarath
+author_login: admin
+author_email: sarathlakshman@slynux.com
+wordpress_id: 52
+wordpress_url: http://sarathlakshman.com/?p=52
+date: 2006-03-16 09:42:52.000000000 +05:30
+categories:
+- General
+- Open Source
+tags: []
+comments: []
+---
+          
+<img src="http://foss.nitc.ac.in/web/images/events_r5_c1_f2.jpg" alt="">
+
+My next program is at <a href="http://nitc.ac.in">NIT, Calicut</a>. GLUG is going to conduct a two day FOSS Fest (18th and 19th). :) I will be doing 'Live CD Workshop' there. My schedule is on 18th, 2 pm. I am very excited.
+
+I like NIT, Calicut well. Last year after the release of SLYNUX, I was invited to NITC for last year's FOSS program. I heard a technical talk from there for the first time in my life. It was delivered by <a href="http://atulchitnis.net">Atul Chitnis</a>. I cannot forget that moment ever. It was my seed of open source world exposure. 
+
+Look at <a href="http://foss.nitc.ac.in/">FOSS NITC Webpage Click here</a>
