@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Summer of coders at Google R & D, India
+title: Summer of coders at Google R &amp; D, India
 author: Sarath
 author_login: admin
 author_email: sarathlakshman@slynux.com
