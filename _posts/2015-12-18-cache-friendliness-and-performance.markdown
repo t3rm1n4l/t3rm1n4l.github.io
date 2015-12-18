@@ -23,7 +23,7 @@ import "time"
 
 const concurrency = 8
 
-var counts [concurrency]int
+var counts [concurrency]int64
 
 func main() {
 	wg := new(sync.WaitGroup)
@@ -54,8 +54,8 @@ Counts: [1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 10000
 Most systems have a cacheline size of 64bytes.
 Now, let us make a minor modification to the program by applying the following patch:
 
-    -var counts [concurrency]int
-    +var counts [CACHELINE_SIZE * concurrency]int
+    -var counts [concurrency]int64
+    +var counts [CACHELINE_SIZE * concurrency]int64
 
     -counts[offset]++
     +counts[CACHELINE_SIZE*offset]++
