@@ -51,6 +51,7 @@ Duration 4.247911429s
 Counts: [1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000]
 {% endhighlight %}
 
+Most systems have a cacheline size of 64bytes.
 Now, let us make a minor modification to the program by applying the following patch:
 
     -var counts [concurrency]int
@@ -58,8 +59,6 @@ Now, let us make a minor modification to the program by applying the following p
 
     -counts[offset]++
     +counts[CACHELINE_SIZE*offset]++
-
-Most systems have a cacheline size of 64bits or 8bytes.
 
 {% highlight bash %}
 $ GOMAXPROCS=8 go run x.go
