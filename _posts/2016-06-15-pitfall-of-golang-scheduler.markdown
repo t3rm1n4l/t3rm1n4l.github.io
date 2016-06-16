@@ -12,25 +12,30 @@ tags:
 
 Let me fast forward into the problem without wasting time. Try executing the following golang code snippet.
 
-    package main
-    import "fmt"
-    import "time"
-    import "runtime"
+{% highlight golang %}
+package main
+import "fmt"
+import "time"
+import "runtime"
 
-    func main() {
-	    var x int
-	    threads := runtime.GOMAXPROCS(0)
-    	for i := 0; i < threads; i++ {
-	    	go func() {
-	    		for { x++ }
-	    	}()
-    	}
-    	time.Sleep(time.Second)
-	    fmt.Println("x =", x)
+func main() {
+    var x int
+    threads := runtime.GOMAXPROCS(0)
+    for i := 0; i < threads; i++ {
+        go func() {
+            for { x++ }
+        }()
     }
+    time.Sleep(time.Second)
+    fmt.Println("x =", x)
+}
+{% endhighlight %}
     
 The program can be executed as:
-    $ GOMAXPROCS=8 go run x.go
+
+{% highlight bash %}
+$ GOMAXPROCS=8 go run x.go
+{% endhighlight %}
     
 Do you observe that the program never terminates ? This the golang pitfall I was talking about. If you write the same program in C/C++, you will never observe such an issue.
 Now lets modify the program by changing the following line:
