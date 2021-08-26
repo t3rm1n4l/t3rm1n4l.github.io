@@ -3,8 +3,8 @@ layout: page
 title: About
 ---
 ![](/images/about.jpg)
-Sarath Lakshman is a software engineer living in Bangalore, India.
-He is a developer working on indexing and storage problems at enterprise NoSQL database company, Couchbase.
+Sarath Lakshman is a software engineering leader passionate about building highly scalable distributed system software.
+He is currently managing and leading the storage engineering team at enterprise NoSQL database company, Couchbase.
 Sarath is a hacktivist of opensource software and had contributed to various projects. He has published ariticles on
 opensource and also authored a book on Linux shell scripting.
 
